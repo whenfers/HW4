@@ -29,7 +29,7 @@ Partial Class _Default
         End If
 
         ' display the result 
-        netpayamt.Text = netpay
+        netpayamt.Text = "Your Net Pay Salary is  " & netpay
 
     End Sub
 
