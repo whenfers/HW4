@@ -32,4 +32,16 @@ Partial Class _Default
         netpayamt.Text = netpay
 
     End Sub
+
+    Protected Sub clearall_Click(sender As Object, e As EventArgs) Handles clearall.Click
+
+        ' clear all the textbox 
+        hoursworked.Text = ""
+        hourlywage.Text = ""
+        pretaxded.Text = ""
+        aftertaxded.Text = ""
+        netpayamt.Text = ""
+
+
+    End Sub
 End Class
